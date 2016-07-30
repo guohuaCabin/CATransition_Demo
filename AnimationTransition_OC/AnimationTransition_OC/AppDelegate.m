@@ -21,9 +21,7 @@
     self.window = [UIWindow new];
     self.window.bounds = [[UIScreen mainScreen]bounds];
     
-    ViewController *viewController = [[ViewController alloc]init];
-    
-    self.window.rootViewController = viewController;
+    self.window.rootViewController = [[ViewController alloc]init];
     
     [self.window makeKeyAndVisible];
     
